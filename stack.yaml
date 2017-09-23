@@ -1,0 +1,8 @@
+resolver: lts-8.24
+packages:
+- stripe-core
+- stripe-haskell
+- stripe-http-streams
+- stripe-tests
+nix:
+  shell-file: stack-shell.nix
